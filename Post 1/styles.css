@@ -1,0 +1,16 @@
+
+
+.product-item{
+  
+  border:1px solid #f2f2f2;
+  padding:7px;
+  box-sizing: border-box;
+}
+
+h3.text-primary{    
+  margin: 0;
+
+}
+.row-price{
+  margin:5px;
+}
