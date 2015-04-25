@@ -47,7 +47,7 @@
   <script src="app.js"></script>
   <!-- Grid item template -->
   <script type="text/template" id="product-item-template">
-    <div class="col-xs-4 product-grid-item">
+    <div class="col-md-4 product-grid-item">
       <!-- Brand Image -->
       <div class="text-left">
         <img  data-bind="attr:{src:brandImage}"/>
@@ -60,11 +60,11 @@
       <div data-bind="text:description"></div>
       <!-- Price, stock and buy button -->
       <div class="row row-price">
-        <div class="col-xs-8 text-right">
+        <div class="col-md-6 text-right">
           <h3 class="text-primary">#:kendo.toString(price,"C")#</h3>
           <p>Stock: <strong data-bind="text:stock" class="text-success"></strong></p>
         </div>
-        <div class="col-xs-4 text-right">
+        <div class="col-md-4 text-right">
           <button class="btn btn-warning">
             Buy
             <i class="fa fa-cart-plus"></i>

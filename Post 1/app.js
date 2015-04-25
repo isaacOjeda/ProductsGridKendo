@@ -1,6 +1,6 @@
     $(function(){
 
-      //http://jsbin.com/kedizeraze/1/
+      //http://jsbin.com/cadatokugo/1/
 
       var brandImage = "http://cdn.cyberpuerta.mx/out/pictures/emthumbnailer/160/20/bd2/c7e/5dd/aoclogo-ea4c0ba4.jpg";
       var productImage= "http://cdn.cyberpuerta.mx/out/pictures/emthumbnailer/200/150/bb3/6a7/ebe/21994713-762-ebdf0b62.jpg";
@@ -37,7 +37,7 @@
 
 
         var listView = $("#products").data("kendoListView");
-        
+
         listView.template = kendoTemplate;
         listView.altTemplate = kendoTemplate;
         listView.refresh();
