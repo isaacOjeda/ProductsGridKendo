@@ -1,13 +1,12 @@
     $(function(){
-
       //http://jsbin.com/cadatokugo/1/
 
       var brandImage = "http://cdn.cyberpuerta.mx/out/pictures/emthumbnailer/160/20/bd2/c7e/5dd/aoclogo-ea4c0ba4.jpg";
-      var productImage= "http://cdn.cyberpuerta.mx/out/pictures/emthumbnailer/200/150/bb3/6a7/ebe/21994713-762-ebdf0b62.jpg";
+      var productImage = "http://cdn.cyberpuerta.mx/out/pictures/emthumbnailer/200/150/bb3/6a7/ebe/21994713-762-ebdf0b62.jpg";
+
       var products = [];
-
-
-      for (var i = 1; i < 20; i++) {
+      // 20 dummy products
+      for (var i = 1; i <= 20; i++) {
         products.push({
           brandImage:brandImage ,
           productImage:productImage,
@@ -22,13 +21,11 @@
         });
       }
 
-
       var viewModel = kendo.observable({
         products : products
       });
 
       kendo.bind($("#productsView"),viewModel);
-
 
       $("#btnList,#btnGrid").on("click",function(){
 
